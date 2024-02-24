@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Odev2._3.DataAccess.Abstracts
 {
-    public interface IInstructorsDal:IBaseManager<Instructor>
+    public interface IInstructorsDal:IBaseDal<Instructor>
     {
      
     }

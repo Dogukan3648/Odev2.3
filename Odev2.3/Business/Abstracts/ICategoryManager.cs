@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Odev2._3.Business.Abstracts
 {
-    public interface ICategoryManager
+    public interface ICategoryManager:IBaseManager<Category>
     {
       
     }

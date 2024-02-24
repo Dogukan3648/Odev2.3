@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace Odev2._3.Business.Abstracts
 {
-    public interface IInstructorManager
+    public interface IInstructorManager:IBaseManager<Instructor>
     {
-        List<Instructor> GetAll();
-        void Add(Instructor instructor);   
-        void Delete(Instructor instructor);
-        void Update(Instructor instructor);
+       
     }
 }

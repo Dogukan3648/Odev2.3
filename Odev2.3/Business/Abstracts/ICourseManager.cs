@@ -7,12 +7,9 @@ using System.Threading.Tasks;
 
 namespace Odev2._3.Business.Abstracts
 {
-    public interface ICourseManager
+    public interface ICourseManager:IBaseManager<Course>
     {
-        List<Course> GetAll();
-        void Add(Course course);
-        void Delete(Course course);
-        void Update(Course course);
+       
 
     }
 }
